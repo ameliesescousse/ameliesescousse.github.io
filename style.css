@@ -1,16 +1,22 @@
 h1 { color: #7FA7B8; 
 	font-family: 'Pacifico', cursive;
-	font-size: 40px }
+	font-size: 40px
+	line-height: 3;
+	}
+
+h2 {line-height: 3;
+}
 
 .span-title { color: #7FA7B8 ; }
 
 .frame {
 	border: 3px solid white;
-	margin: 50px 250px 80px 250px;
+	margin: 30px 150px 30px 150px;
 	padding: 8px;
 	font-family: 'Baloo Tammudu 2', cursive;
 	border-radius: 8px;
 	box-shadow: 5px 5px 10px #7FA7B8;
+	line-height: 1;
 }
 
 
@@ -24,7 +30,7 @@ background-size: cover;
 	text-align: center;
 	}
 
-.navbar {
+.my-navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -49,32 +55,6 @@ background-size: cover;
 	color: #7FA7B8;
 }
 
-.drapeau {
-	background: grey;
-	height: 300px;
-	width: 600px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.blue {
-	background: blue;
-	height: 200px;
-	width: 100px;
-}
-
-.white {
-	background: white;
-	height: 200px;
-	width: 100px;
-}
-
-.red {
-	background: red;
-	height: 200px;
-	width: 100px;
-}
 
 .gaufres {
 	text-align: left;
@@ -117,42 +97,45 @@ h5 {color: #7FA7B8;
 .gaufres {
 	text-align: center;
 	border: 3px solid white;
-	margin: 70px 70px 70px 70px;
-	padding-top: 2px;
-	padding-bottom: 2px;
+	margin: 20px 70px 20px 70px;
+	padding-top: 20px;
+	padding-bottom: 0px;
 	padding-left: 20px;
 	padding-right: 20px; 
 	border-radius: 8px;
 	box-shadow: 5px 5px 5px #7FA7B8;
 	line-height: 2;
+	font-size: 16px;
 }
 
 .liste {
 	text-align: left;
 	font-family: 'Baloo Tammudu 2', cursive;
 	border: 3px solid white;
-	margin: 70px 70px 70px 70px;
-	padding-top: 1px;
-	padding-bottom: 1px;
+	margin: 20px 70px 20px 70px;
+	padding-top: 20px;
+	padding-bottom: 0px;
 	padding-left: 20px;
 	padding-right: 20px; 
 	border-radius: 8px;
 	box-shadow: 5px 5px 5px #7FA7B8;
 	line-height: 2;
+	font-size: 16px;
 }
 
-.étapes {
+.etapes {
 	text-align: left;
 	font-family: 'Baloo Tammudu 2', cursive;
 	border: 3px solid white;
-	margin: 70px 70px 70px 70px;
-	padding-top: 40px;
-	padding-bottom: 2px;
+	margin: 20px 70px 20px 70px;
+	padding-top: 20px;
+	padding-bottom: 0px;
 	padding-left: 20px;
 	padding-right: 20px; 
 	border-radius: 8px;
 	box-shadow: 5px 5px 5px #7FA7B8;
 	line-height: 2,5;
+	font-size: 16px;
 }
 
 h6 {
@@ -181,11 +164,11 @@ h8 {
 	color: #7FA7B8;
 }
 
-.recettevidéo {
+.recettevideo {
 	text-align: center;
 	font-family: 'Baloo Tammudu 2', cursive;
 	border: 3px solid white;
-	margin: 70px 70px 70px 70px;
+	margin: 20px 70px 20px 70px;
 	padding-top: 40px;
 	padding-bottom: 30px;
 	padding-left: 20px;
@@ -196,3 +179,43 @@ h8 {
 }
 
 
+#mc_embed_signup {
+  background: #E8E8E8;
+  color: #7FA7B8;
+  clear:left;
+  width: 40%;
+}
+
+.banner {
+  background-size: cover;
+  color: #E8E8E8;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.asterisk {
+	color: #7FA7B8;
+}
+
+.banner h1 {
+  color:#E8E8E8;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: #E8E8E8;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.basdepage {
+	display: flex; 
+	justify-content: center;
+	border: 3px solid white;
+	border-radius: 8px;
+	box-shadow: 5px 5px 5px #7FA7B8;
+	margin: 20px 70px 20px 70px;
+}
